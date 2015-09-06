@@ -1,0 +1,14 @@
+Напиши функцію, яка виведе число у зворотньому порядку.
+
+
+
+
+var a = prompt("write your number");
+var b = String(a).split("");
+
+function perevorot (arr) {
+var f = arr.reverse().join("");
+alert(f);
+}
+
+perevorot(b);
