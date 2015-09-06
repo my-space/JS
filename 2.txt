@@ -1,0 +1,18 @@
+Напиши функцію, яка приймає строку та повертає найдовше слово в цій строці.
+
+
+var sen = prompt("your sentence");
+
+function long (maxString) {
+var wordArr=sen.split(" ");
+var maxString = " "; 
+for (var i=0 in wordArr)
+{
+if (wordArr[i].length>maxString.length)
+{
+maxString=wordArr[i];
+}
+} alert(maxString);
+}
+
+long(sen);
